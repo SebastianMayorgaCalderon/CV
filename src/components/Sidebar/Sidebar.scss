@@ -1,0 +1,38 @@
+.sidebar {
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    padding: 3rem 0;
+
+    &__title-wrapper {
+        display: block;
+        transform-origin: top left;
+        /* Note: for a CLOCKWISE rotation, use the commented-out
+           transform instead of this one. */
+        transform: rotate(-90deg) translate(-100%);
+        /* transform: rotate(90deg) translate(0, -100%); */
+        margin-top: -50%;
+      
+        /* Not vital, but possibly a good idea if the element you're rotating contains
+           text and you want a single long vertical line of text and the pre-rotation
+           width of your element is small enough that the text wraps: */
+        white-space: nowrap;
+    }
+
+    &__title-name-wrapper {
+        font-size: 35px;
+        letter-spacing: 0.3em;
+        
+    }
+
+    &__title-ocupation-wrapper {
+        font-size: 17px;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+    }
+
+}
+
+.rotation-wrapper-inner {
+    padding: 50% 0;
+}

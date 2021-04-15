@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.scss';
+import { Sidebar } from './components';
+
 
 const App = () => {
   return (
-    <div>
-      hello world
+    <div className="flex">
+      <Sidebar />
+
     </div>
   );
 }
