@@ -1,1 +1,13 @@
 @import "./index.scss";
+.app {
+  width: 100%;
+}
+.sidebar-wrapper {
+  justify-self: start;
+  align-self: flex-start;
+}
+@media (max-width: 1024px) {
+  .sidebar-wrapper {
+    display: none;
+  }
+}
