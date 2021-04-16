@@ -1,0 +1,27 @@
+.sidebar {
+    background: #000;
+    color: #fff;
+    height: 100vh;
+
+    &__title-wrapper {
+        transform: rotate(-90deg);
+    }
+
+    &__title-name-wrapper {
+        font-size: 35px;
+        letter-spacing: 0.3em;
+        
+    }
+
+    &__title-ocupation-wrapper {
+        font-size: 17px;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+    }
+
+}
+
+.rotation-wrapper-inner {
+    margin: 55% 0;
+    width: 100%
+}
