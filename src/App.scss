@@ -2,6 +2,26 @@
 .app {
   width: 100%;
 }
+.cv-content{
+  padding-top: 8rem;
+  padding: 8rem 1rem 0;
+
+  &__about-me-container{
+  }
+
+  &__information-wrapper{
+    width: 75%;
+    margin-bottom: 1rem;
+  }
+
+  &__education-container {
+    &__item {
+      margin: 2rem 0
+    }
+  }
+
+
+}
 .sidebar-wrapper {
   justify-self: start;
   align-self: flex-start;
