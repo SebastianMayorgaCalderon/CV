@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 body {
   margin: 0;
   font-family: 'Roboto', 'Oxygen',
@@ -14,4 +15,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .full-width {
   width: 100%;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
 }
