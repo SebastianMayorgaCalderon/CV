@@ -1,6 +1,6 @@
 import React from "react";
 
-import { CVMenu, Sidebar, SubTitle } from "./components";
+import { CVMenu, Sidebar } from "./components";
 
 import "./App.scss";
 
