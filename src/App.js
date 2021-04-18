@@ -1,17 +1,63 @@
 import React from "react";
 
-import { CVMenu, Sidebar } from "./components";
+import { CVMenu, Sidebar, ExperienceItem } from "./components";
 
 import "./App.scss";
 
 const App = () => {
+  const experienceInformation = [
+    {
+      year: 2019,
+      name:'KONRAD GROUP', 
+      possition: 'ASSOCIATE SOFTWARE DEVELOPER', 
+      descriptionList: [
+        {
+          jobDescription: 'Tasked to develop different projects for multiple clients such as Banking application with swift 5.',
+          key: 0
+        }
+      ]
+    },
+    {
+      year: 2020,
+      name:'KONRAD GROUP', 
+      possition: 'SOFTWARE DEVELOPER', 
+      descriptionList: [
+        {
+          jobDescription: 'Worked closely with different clients in order to ensure the quality of the developed product application for marketing purpose with ReactJS SCSS, AEM6.4.',
+          key: 0
+        }
+      ]
+    },
+    {
+      year: 2020,
+      name:'ONE CONSULTING GROUP', 
+      possition: 'SOFTWARE DEVELOPER', 
+      descriptionList: [
+        {
+          jobDescription: 'Full-stack developer, working on a software solution for multiples clients, bringing their business model online',
+          key: 0
+        }
+      ]
+    },
+    {
+      year: 2021,
+      name:'PROXIMITY (Current possition)', 
+      possition: 'WEB DEVELOPER', 
+      descriptionList: [
+        {
+          jobDescription: 'Full-stack developer, tasked to develop Web, Backend and architectural solutions, for multiple proyects, React, React Hooks.',
+          key: 0
+        }
+      ]
+    }
+  ]
   return (
     <div className="App" id="outer-container">
       <div className="hamburger-button-wrapper">
         <CVMenu pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
       </div>
-      <div id="page-wrap" className="flex justify-content-start">
-        <div className="sidebar-wrapper">
+      <div id="page-wrap" className="flex justify-content-start align-items-stretch">
+        <div className="sidebar-wrapper align-items-stretch">
           <Sidebar />
         </div>
         <div className="full-width cv-content column">
@@ -49,6 +95,12 @@ const App = () => {
                 <span>2019-2019 | Certificate Course in web development, worked with</span>
                 <span>technologies such as ReactJS, Java, Springboot and  mongoDB.</span>
               </div>
+            </div>
+          </div>
+          <div className="cv-content__experience-container flex flex justify-content-center">
+            <div className="cv-content__experience-wrapper">
+              <h1>WORKING EXPERIENCE</h1>
+              {experienceInformation.map((item) => (<ExperienceItem key={item.name} {...item}/>))}
             </div>
           </div>
         </div>

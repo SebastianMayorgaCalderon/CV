@@ -17,10 +17,16 @@
 .aling-items-flex-end {
     align-items: flex-end;
 }
+.aling-items-start {
+    align-items: flex-start;
+}
 
 .aling-items-center {
     align-items: center;
 }
+.align-items-stretch {
+    align-items: stretch;
+} 
 
 .column {
     flex-direction: column;
