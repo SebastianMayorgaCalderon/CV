@@ -3,13 +3,20 @@
   width: 100%;
 }
 .cv-content{
+  height: 100vh;
   padding-top: 8rem;
+  padding-bottom: 8rem;
   padding: 8rem 1rem 0;
 
   &__about-me-container{
   }
 
   &__information-wrapper{
+    width: 75%;
+    margin-bottom: 1rem;
+  }
+
+  &__experience-wrapper{
     width: 75%;
     margin-bottom: 1rem;
   }
@@ -23,8 +30,7 @@
 
 }
 .sidebar-wrapper {
-  justify-self: start;
-  align-self: flex-start;
+  
 }
 @media (max-width: 1024px) {
   .sidebar-wrapper {
