@@ -7,50 +7,63 @@ import "./App.scss";
 const App = () => {
   const experienceInformation = [
     {
-      year: 2019,
-      name:'KONRAD GROUP', 
-      possition: 'ASSOCIATE SOFTWARE DEVELOPER', 
+      year: 2021,
+      name: 'Gorilla Logic (Current position)', 
+      position: 'Software Developer', 
       descriptionList: [
         {
-          jobDescription: 'Tasked to develop different projects for multiple clients such as Banking application with swift 5.',
-          key: 0
-        }
-      ]
-    },
-    {
-      year: 2020,
-      name:'KONRAD GROUP', 
-      possition: 'SOFTWARE DEVELOPER', 
-      descriptionList: [
-        {
-          jobDescription: 'Worked closely with different clients in order to ensure the quality of the developed product application for marketing purpose with ReactJS SCSS, AEM6.4.',
-          key: 0
-        }
-      ]
-    },
-    {
-      year: 2020,
-      name:'ONE CONSULTING GROUP', 
-      possition: 'SOFTWARE DEVELOPER', 
-      descriptionList: [
-        {
-          jobDescription: 'Full-stack developer, working on a software solution for multiples clients, bringing their business model online',
+          jobDescription: 'Collaborate in the design and development of web and backend solutions for complex projects using React, React Hooks, Node.js, and Express.js. Responsible for architectural improvements and ensuring code quality.',
           key: 0
         }
       ]
     },
     {
       year: 2021,
-      name:'PROXIMITY (Current possition)', 
-      possition: 'WEB DEVELOPER', 
+      name: 'Proximity', 
+      position: 'Web Developer', 
       descriptionList: [
         {
-          jobDescription: 'Full-stack developer, tasked to develop Web, Backend and architectural solutions, for multiple proyects, React, React Hooks.',
+          jobDescription: 'Led full-stack development initiatives, creating scalable web applications and backend systems. Utilized technologies like React, React Hooks, Node.js, and Express.js to deliver high-quality solutions for multiple projects.',
+          key: 0
+        }
+      ]
+    },
+    {
+      year: 2020,
+      name: 'One Consulting Group', 
+      position: 'Software Developer', 
+      descriptionList: [
+        {
+          jobDescription: 'Developed full-stack software solutions tailored to client needs, enabling digital transformation. Expertise in Node.js, Express.js, and React with TypeScript for dynamic web applications.',
+          key: 0
+        }
+      ]
+    },
+    {
+      year: 2020,
+      name: 'Konrad Group', 
+      position: 'Software Developer', 
+      descriptionList: [
+        {
+          jobDescription: 'Worked closely with clients to deliver high-quality marketing and business applications. Proficient in ReactJS, SCSS, Adobe Experience Manager 6.4, and Node.js to create seamless user experiences.',
+          key: 0
+        }
+      ]
+    },
+    {
+      year: 2019,
+      name: 'Konrad Group', 
+      position: 'Associate Software Developer', 
+      descriptionList: [
+        {
+          jobDescription: 'Contributed to the development of various client projects, including a banking application built with Swift 5. Focused on delivering secure and efficient solutions.',
           key: 0
         }
       ]
     }
-  ]
+  ];
+  
+  
   return (
     <div className="App" id="outer-container">
       <div className="hamburger-button-wrapper">
@@ -65,21 +78,19 @@ const App = () => {
             <div className="cv-content__information-wrapper">
               <h1>ABOUT ME</h1>
               <p>
-                Sebastian possesses strong, hands-on, knowledge of programming in Java, C#, ASP.NET, JavaScript, Swift, JQuery, the main SQL
-                languages and various frameworks and libraries such as React,
-                Redux, React-Context, ReactHooks, Angular4-6, Springboot,
-                ReactiveX. Has a good understanding of technology trends and
-                developments and is an expert at applying his programming skills
-                to solve complex challenges. With his past employer, he was
-                involved in several different projects. On a personal level, he
-                has the strong listening skills needed to acquire and comprehend
-                user requirements and is more than competent on independently
-                working on most phases of development activities. His greatest
-                strengths include being able to make an immediate impact on a
-                project and having an eagerness to evolve existing systems and
-                technology. Right now he would like to work for a company that
-                offers its staff competitive pay, comprehensive benefits packages,
-                and outstanding advancement opportunities.
+                Sebastian possesses strong, hands-on, knowledge of
+programming in Node JS, ExpressJS, Deno, FireBase, Java,
+C#, ASP.NET, JavaScript, Swift, JQuery, the main SQL
+languages and various frameworks and libraries such as
+React, Redux, React-Context, ReactHooks, Angular12,
+Springboot, ReactiveX, React Native, Next JS 13, Entity
+Framework, Graph Ql, Fastify, Express, Prisma. Has a good
+understanding of technology trends and developments and
+is an expert at applying his programming skills to solve
+complex challenges. On a personal level, he has the strong
+listening skills needed to acquire and comprehend user
+requirements and is more than competent on independently
+working on most phases of development activities
               </p>
             </div>
           </div>
@@ -93,7 +104,8 @@ const App = () => {
               <div className="cv-content__education-container__item">
                 <h2>BRAIN STATION PROGRAM</h2>
                 <span>2019-2019 | Certificate Course in web development, worked with</span>
-                <span>technologies such as ReactJS, Java, Springboot and  mongoDB.</span>
+                <span>technologies such as ReactJS, Java, Springboot and mongoDB,
+Node JS, Express js, Deno</span>
               </div>
             </div>
           </div>
